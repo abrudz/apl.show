@@ -1,10 +1,10 @@
-title: My Amazing Podcast
-description: You'll hear me talk about amazing things!
-author: My Name
-email: my@email.com
-lang: en-us
-copyright: "&#x2117; &amp; &#xA9; 2020"
-logo: /assets/img/logo.png
+title: APL Notation As A Tool Of Thought
+description: Inspired by Ken Iverson’s paper Notation as a Tool of Thought, this podcast explores various aspects of notation, in the context of the APL programming language.
+author: Adám Brudzewsky
+email: adam@aplcart.info
+lang: en
+copyright: "&#x2117; &amp; &#xA9; 2022"
+logo: /aplnaatot/logo.svg
 # baseurl: "" # the subpath of your site, e.g. /blog
 # url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
