@@ -1,0 +1,66 @@
+---
+layout: null
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+    xmlns:content="http://purl.org/rss/1.0/modules/content/"
+    xmlns:atom="http://www.w3.org/2005/Atom" 
+    xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" 
+    xml:lang="{{ site.lang }}">
+    <channel>
+        <atom:link href="{{ "/podcast.rss" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml" />
+        <title>{{ site.title }}</title>
+        <description><![CDATA[{{ site.description | strip_html | expand_urls: site.url | cdata_escape }}]]></description>
+        <link>{{ site.baseurl | prepend: site.url }}</link>
+        <language>{{ site.lang }}</language>
+        <managingEditor>{{ site.email }} ({{ site.author }})</managingEditor>
+        <webMaster>{{ site.email }} ({{ site.author }})</webMaster>
+        <copyright>{{ site.copyright }}</copyright>
+        <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
+        <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
+        <image>
+            <link>{{ site.baseurl | prepend: site.url }}</link>
+            <url>{{ site.logo | prepend: site.baseurl | prepend: site.url }}</url>
+            <title>{{ site.title }}</title>
+        </image>
+        <itunes:subtitle><![CDATA[{{ site.description | strip_html | expand_urls: site.url | cdata_escape }}]]></itunes:subtitle>
+        <itunes:author>{{ site.author }}</itunes:author>
+        <itunes:summary><![CDATA[{{ site.description | strip_html | expand_urls: site.url | cdata_escape }}]]></itunes:summary>
+        <itunes:keywords>{{ site.keywords }}</itunes:keywords>
+        <itunes:owner>
+            <itunes:name>{{ site.author }}</itunes:name>
+            <itunes:email>{{ site.email }}</itunes:email>
+        </itunes:owner>
+        <itunes:image href="{{ site.logo  | prepend: site.baseurl | prepend: site.url }}" />
+        <itunes:category text="Business">
+            <itunes:category text="Careers" />
+        </itunes:category>
+        <itunes:category text="Business">
+            <itunes:category text="Entrepreneurship" />
+        </itunes:category>
+        <itunes:type>episodic</itunes:type>
+        <itunes:explicit>no</itunes:explicit>
+        {% for post in site.posts %}
+            <item>
+                <title>{{ post.title | xml_escape }}</title>
+                <itunes:title>{{ post.title | xml_escape }}</itunes:title>
+                <description><![CDATA[{{ post.excerpt | strip_html | truncatewords: 50 | expand_urls: site.url | cdata_escape }}]]></description>
+                <content:encoded><![CDATA[{{ post.content | expand_urls: site.url | cdata_escape }}]]></content:encoded>
+                <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
+                <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+                <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
+                <enclosure url="{{ post.mp3-url | prepend: site.baseurl | prepend: site.url }}" length="1" type="audio/mp3"/>
+                <itunes:author>{{ site.author }}</itunes:author>
+                <itunes:summary><![CDATA[{{ post.content | strip_html | expand_urls: site.url | cdata_escape }}]]></itunes:summary>
+                <itunes:subtitle><![CDATA[{{ post.excerpt | strip_html | truncatewords: 50 | expand_urls: site.url | cdata_escape }}]]></itunes:subtitle>
+                <itunes:keywords>{{ post.keywords | join: "," }}</itunes:keywords>
+                <itunes:season>{{ post.season }}</itunes:season>
+                <itunes:episode>{{ post.episode }}</itunes:episode>
+                <itunes:episodeType>{{ post.episode-type }}</itunes:episodeType>
+                <itunes:image href="{{ site.logo | prepend: site.baseurl | prepend: site.url }}" />
+                <itunes:explicit>{{ post.explicit }}</itunes:explicit>
+                <itunes:block>{{ post.block }}</itunes:block>
+            </item>
+        {% endfor %}
+    </channel>
+</rss>
