@@ -5,8 +5,8 @@ email: contact@apl.show
 lang: en
 copyright: "&#x2117; &amp; &#xA9; 2022–2023"
 logo: logo.svg
-baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://apl.show" # the base hostname & protocol for your site, e.g. http://example.com
+# baseurl: "/" # the subpath of your site, e.g. /blog
+# url: "https://apl.show" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
