@@ -1,9 +1,9 @@
 ---
-title:        "How to Structure APL Programs"
-date:         2022-12-05 00:00:00 +0000
+title:        "Notational Awkwardnesses"
+date:         2022-11-01 00:00:00 +0000
 keywords:
 - recommendations
-mp3-url:      "/assets/audio/2022-12-05-How-to-Structure-APL-Programs.mp3"
+mp3-url:      "/assets/audio/2022-11-01-Notational-Awkwardnesses.mp3"
 episode-type: full # or "trailer"
 explicit:     "no"
 block:        "no" # no means it is published
