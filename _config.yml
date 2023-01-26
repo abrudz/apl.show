@@ -1,9 +1,9 @@
 title: The APL Show
 description: |
-  Inspired by Ken Iverson’s paper “Notation as a Tool of Thought”, this podcast explores various aspects of notation, in the context of the APL programming language.<br>[Rich Park](https://rikedyp.uk/){target="_blank"}
-  [![YouTube](yt.svg "YouTube channel")](https://www.youtube.com/rikedyp){target="_blank"} is an APL instructor at Dyalog Ltd, has taught APL at multiple schools, and created [an online self-study course](https://course.dyalog.com/){target="_blank"}.
-  [Adám Brudzewsky](https://abrudz.github.io){target="_blank"} [![YouTube](yt.svg "YouTube channel")](https://www.youtube.com/a_brudz){target="_blank"} founded the [APL Orchard](https://apl.wiki/APL_Orchard) chat room and [APLcart](https://apl.wiki/APLcart), and is the co-author of the [APL Cultivations](https://xpqz.github.io/cultivations) book.
-  Both are [Dyalog Ltd](https://apl.wiki/Dyalog_Ltd.){target="_blank"} employees, regular hosts of [Dyalog webinars](https://apl.wiki/Dyalog_webinar){target="_blank"}, and recurring panellists on the [Array Cast](https://apl.wiki/Array_Cast) podcast.
+  Inspired by Ken Iverson’s paper “Notation as a Tool of Thought”, this podcast explores various aspects of notation, in the context of the APL programming language.
+  • Rich Park YouTube is an APL instructor at Dyalog Ltd, has taught APL at multiple schools, and created an online self-study course.
+  • Adám Brudzewsky YouTube founded the APL Orchard chat room and APLcart, and is the co-author of the APL Cultivations book.
+  • Both are Dyalog Ltd employees, regular hosts of Dyalog webinars, and recurring panellists on the Array Cast podcast. 
 author: Adám Brudzewsky & Richard Park
 email: contact@apl.show
 lang: en
