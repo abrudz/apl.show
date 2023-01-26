@@ -3,7 +3,7 @@ description: Inspired by Ken Iverson’s paper “Notation as a Tool of Thought�
 author: Adám Brudzewsky & Richard Park
 email: contact@apl.show
 lang: en
-copyright: "&#x2117; &amp; &#xA9; 2023"
+copyright: "&#x2117; &amp; &#xA9; 2022–2023"
 logo: logo.svg
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://apl.show" # the base hostname & protocol for your site, e.g. http://example.com
