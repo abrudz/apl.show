@@ -1,10 +1,9 @@
-@import "fonts";
 @import "rouge-github";
 
 body {
   background-color: #fff;
   padding:50px;
-  font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 14px/1.5 serif;
   color:#727272;
   font-weight:400;
 }
@@ -67,7 +66,7 @@ blockquote {
 }
 
 code, pre {
-  font-family:Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, Consolas, Liberation Mono, DejaVu Sans Mono, Courier New, monospace;
+  font-family: DejaVu Sans Mono, APL386 Unicode, APL385 Unicode, monospace;
   color:#333;
 }
 
