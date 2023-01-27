@@ -1,9 +1,9 @@
 title: The APL Show
-description: Inspired by Ken Iverson’s paper 𝘕𝘰𝘵𝘢𝘵𝘪𝘰𝘯 𝘢𝘴 𝘢 𝘛𝘰𝘰𝘭 𝘰𝘧 𝘛𝘩𝘰𝘶𝘨𝘩𝘵, this podcast explores various aspects of notation, in the context of the APL programming language. 𝗥𝗶𝗰𝗵𝗮𝗿𝗱 is an APL instructor at Dyalog Ltd, has taught APL at multiple schools, and created an online self-study course. 𝗔𝗱𝗮́𝗺 launched the 𝘈𝘗𝘓 𝘖𝘳𝘤𝘩𝘢𝘳𝘥 chat room and 𝘈𝘗𝘓𝘤𝘢𝘳𝘵, and is the co-author of the 𝘈𝘗𝘓 𝘊𝘶𝘭𝘵𝘪𝘷𝘢𝘵𝘪𝘰𝘯𝘴 book. Both are 𝘋𝘺𝘢𝘭𝘰𝘨 𝘓𝘵𝘥 employees, regular hosts of Dyalog webinars, and recurring panellists on the 𝘈𝘳𝘳𝘢𝘺 𝘊𝘢𝘴𝘵 podcast. 
+description: Inspired by Ken Iverson’s paper “Notation as a Tool of Thought”, this podcast explores various aspects of notation, in the context of the APL programming language. Richard is the media manager and an APL instructor at Dyalog Ltd, has taught APL at multiple schools, and created an online self-study course. Adám launched the “APL Orchard” chat room and the “APLcart” code phrase search, and is the co-author of the “APL Cultivations” book. Both are Dyalog Ltd employees, regular presenters at Dyalog events, and recurring panellists on the “Array Cast” podcast. 
 author: Adám Brudzewsky & Richard Park
 email: contact@apl.show
 lang: en
-copyright: "&#x2117; &amp; &#xA9; 2022–2023"
+copyright: "&#x2117; &amp; &#xA9; 2022–2023 A. Brudzewsky & R. Park"
 logo: logo.svg
 # baseurl: "/" # the subpath of your site, e.g. /blog
 # url: "https://apl.show" # the base hostname & protocol for your site, e.g. http://example.com
