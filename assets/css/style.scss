@@ -10,3 +10,9 @@ audio.podcast {
 img#logo {
 	max-width:50%;
 }
+
+@media(prefers-color-scheme:dark) {
+	html {
+		filter: invert(1) hue-rotate(180deg);
+	}
+}
