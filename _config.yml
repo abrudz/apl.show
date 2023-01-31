@@ -4,7 +4,7 @@ author: Adám Brudzewsky &amp; Richard Park
 email: contact@apl.show
 lang: en
 copyright: "&#x2117; &amp; &#xA9; 2022–23 Brudzewsky &amp; Park"
-logo: logo.png
+logo: /assets/img/logo.png
 # baseurl: "/" # the subpath of your site, e.g. /blog
 # url: "https://apl.show" # the base hostname & protocol for your site, e.g. http://example.com
 
