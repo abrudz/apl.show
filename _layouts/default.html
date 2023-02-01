@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="alternate" type="application/rss+xml" title="Podcast" href="https://apl.show/podcast.rss"/>
     {% seo %}
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
     <!--[if lt IE 9]>
@@ -13,13 +14,12 @@
   <body>
     <div class="wrapper">
       <header>
-        {% if site.logo %}
-        <img id="logo" src="{{site.logo | relative_url}}" alt="Logo" />
-        {% endif %}
-        <h1><a href="{{ "/" | absolute_url }}">{{ site.title }}</a></h1>
-        <h2>{{ site.author }}</h2>
-
+        <img id="logo" src="{{site.logo | relative_url}}" alt="Logo" /><a href="podcast.rss"><img src="/assets/img/rss.svg" alt="RSS" title="RSS feed"></a>
         <p>{{ site.description }}</p>
+        <hr>
+        <p><a href="https://rikedyp.uk/" target="_blank">Richard</a> <a href="https://www.youtube.com/rikedyp" target="_blank"><img src="/assets/img/yt.svg" alt="YouTube" title="YouTube channel"></a> is the media manager and an APL instructor at Dyalog Ltd, has taught APL at multiple schools, and created <a href="https://course.dyalog.com/" target="_blank">an online self-study course</a>.</p>
+        <p><a href="https://abrudz.github.io" target="_blank">Adám</a> <a href="https://www.youtube.com/a_brudz" target="_blank"><img src="/assets/img/yt.svg" alt="YouTube" title="YouTube channel"></a> Adám is an APL programmer at Dyalog Ltd, launched the <a href="https://apl.wiki/APL_Orchard">APL Orchard</a> chat room and the <a href="https://apl.wiki/APLcart">APLcart</a> code phrase search, and is the co-author of the <a href="https://xpqz.github.io/cultivations">APL Cultivations</a> book.</p>
+        <p>Both are regular presenters at various APL events, and recurring panellists on the <a href="https://apl.wiki/Array_Cast">Array Cast</a> podcast.</p>
       </header>
       <section>
 
