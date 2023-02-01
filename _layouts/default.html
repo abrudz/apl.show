@@ -14,11 +14,11 @@
   <body>
     <div class="wrapper">
       <header>
-        <img id="logo" src="{{site.logo | relative_url}}" alt="Logo" /><a href="podcast.rss"><img src="/assets/img/rss.svg" alt="RSS" title="RSS feed"></a>
+        <img id="logo" src="{{site.logo | relative_url}}" alt="Logo" /><a id="rss" href="podcast.rss"><img src="/assets/img/rss.svg" alt="RSS" title="RSS feed"></a>
         <p>{{ site.description }}</p>
         <hr>
         <p><a href="https://rikedyp.uk/" target="_blank">Richard</a> <a href="https://www.youtube.com/rikedyp" target="_blank"><img src="/assets/img/yt.svg" alt="YouTube" title="YouTube channel"></a> is the media manager and an APL instructor at Dyalog Ltd, has taught APL at multiple schools, and created <a href="https://course.dyalog.com/" target="_blank">an online self-study course</a>.</p>
-        <p><a href="https://abrudz.github.io" target="_blank">Adám</a> <a href="https://www.youtube.com/a_brudz" target="_blank"><img src="/assets/img/yt.svg" alt="YouTube" title="YouTube channel"></a> Adám is an APL programmer at Dyalog Ltd, launched the <a href="https://apl.wiki/APL_Orchard">APL Orchard</a> chat room and the <a href="https://apl.wiki/APLcart">APLcart</a> code phrase search, and is the co-author of the <a href="https://xpqz.github.io/cultivations">APL Cultivations</a> book.</p>
+        <p><a href="https://abrudz.github.io" target="_blank">Adám</a> <a href="https://www.youtube.com/a_brudz" target="_blank"><img src="/assets/img/yt.svg" alt="YouTube" title="YouTube channel"></a> writes APL at Dyalog Ltd, launched the <a href="https://apl.wiki/APL_Orchard">APL Orchard</a> chat room and the <a href="https://apl.wiki/APLcart">APLcart</a> code phrase search, and is the co-author of the <a href="https://xpqz.github.io/cultivations">APL Cultivations</a> book.</p>
         <p>Both are regular presenters at various APL events, and recurring panellists on the <a href="https://apl.wiki/Array_Cast">Array Cast</a> podcast.</p>
       </header>
       <section>
@@ -26,17 +26,6 @@
       {{ content }}
 
       </section>
-      <footer>{{ site.copyright }}</footer>
     </div>
-    {% if site.google_analytics %}
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-      ga('create', '{{ site.google_analytics }}', 'auto');
-      ga('send', 'pageview');
-    </script>
-    {% endif %}
   </body>
 </html>
