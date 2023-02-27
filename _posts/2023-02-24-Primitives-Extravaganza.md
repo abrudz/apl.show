@@ -2,8 +2,8 @@
 title:        "Primitives Extravaganza"
 date:         2023-02-24 00:00:00 +0000
 keywords:
-- interface
-- history
+- primitives
+- issues
 mp3-url:      "/assets/audio/2023-02-24-Primitives-Extravaganza.mp3"
 episode-type: full # or "trailer"
 explicit:     "no"

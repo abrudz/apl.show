@@ -2,7 +2,7 @@
 title:        "Notational Awkwardnesses"
 date:         2022-11-01 00:00:00 +0000
 keywords:
-- recommendations
+- issues
 mp3-url:      "/assets/audio/2022-11-01-Notational-Awkwardnesses.mp3"
 episode-type: full # or "trailer"
 explicit:     "no"
