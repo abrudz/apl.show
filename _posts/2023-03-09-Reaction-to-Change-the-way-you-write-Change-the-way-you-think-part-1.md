@@ -14,7 +14,7 @@ excerpt_separator: <!--more-->
 First part of our reaction to Xuanyi Chew's presentation at DataEngBytes 2022.
 <!--more-->
 <hr>
-[Video (YouTube)](https://www.youtube.com/watch?v=69WP_2Sk_4M&list=PLYKQVqyrAEj8Q7BdOgakZCAGf6ReO1cue) ∙ [Audio (download)](/assets/audio/2023-03-09-Reaction-to-Change-the-way-you-write-Change-the-way-you-think-part-1.mp3)
+[Video (YouTube)](https://www.youtube.com/watch?v=SlA_T91gS6s&list=PLYKQVqyrAEj8Q7BdOgakZCAGf6ReO1cue) ∙ [Audio (download)](/assets/audio/2023-03-09-Reaction-to-Change-the-way-you-write-Change-the-way-you-think-part-1.mp3)
 * [APL Problem Solving Competition](https://www.dyalog.com/student-competition.htm)
 * [Kattis](https://open.kattis.com)
 * [APL Seeds '23](https://www.dyalog.com/apl-seeds-user-meetings/aplseeds23.htm)
