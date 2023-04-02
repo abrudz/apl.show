@@ -1,5 +1,5 @@
 ---
-title:        "Reaction to “Change the way you write. Change the way you think.”"
+title:        "Reaction to “Change the way you write. Change the way you think. — part 2”"
 date:         2023-03-30 00:00:00 +0000
 keywords:
 - recommendations
