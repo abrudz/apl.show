@@ -14,7 +14,7 @@ excerpt_separator: <!--more-->
 We continue discussing the pros and cons of adding primitives, and go through a few more that could be useful to have.
 <!--more-->
 <hr>
-[Video (YouTube)](https://www.youtube.com/watch?v=wvrT0LXVsUQ&list=PLYKQVqyrAEj8Q7BdOgakZCAGf6ReO1cue) ∙ [Audio (download)](/assets/audio/2023-05-02-Primitives-Extravaganza.mp3)
+[Video (YouTube)](https://www.youtube.com/watch?v=wvrT0LXVsUQ&list=PLYKQVqyrAEj8Q7BdOgakZCAGf6ReO1cue) ∙ [Audio (download)](/assets/audio/2023-05-02-Primitives-Extravaganza-Continued.mp3)
 * [FinnAPL spring meeting](https://www-finnapl-fi.translate.goog/tapahtumat/?_x_tr_sl=fi&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=sc)
 * [Tokyo APL/J/K Meetup](https://www.meetup.com/apl-j-k-meetup/events/kkzgdtyfchbtb/)
 * [APL Array Notation Formal Proposal](https://www.dyalog.com/blog/2023/04/formal-proposal-for-apl-array-notation-seeking-feedback)
