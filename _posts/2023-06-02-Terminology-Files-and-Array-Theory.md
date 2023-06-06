@@ -12,7 +12,7 @@ block:        "no" # no means it is published
 layout: podcast
 excerpt_separator: <!--more-->
 ---
-Together with out first guest, Silas Paulson, we begin by discussing terminology, but then we go on a wild ride, mentioning the history of file operations, review of various primitives, APL's array model, comparison of ways to apply functions, glyphs, syntax, and much more.
+Together with out first guest, Silas Poulson, we begin by discussing terminology, but then we go on a wild ride, mentioning the history of file operations, review of various primitives, APL's array model, comparison of ways to apply functions, glyphs, syntax, and much more.
 <!--more-->
 <hr>
 [Video (YouTube)](https://www.youtube.com/watch?v=ma31yxAP7u0&list=PLYKQVqyrAEj8Q7BdOgakZCAGf6ReO1cue) ∙ [Audio (download)](/assets/audio/2023-06-02-Terminology-Files-and-Array-Theory.mp3)
